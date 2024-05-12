@@ -1,6 +1,17 @@
 body {
 background-color: hsl(210, 46%, 95%)    ;
 }
+p, h1, h2 {
+    font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+h1, h2 {
+    color: white;
+}
+
+p {
+    color: rgb(205, 205, 205);
+}
 
 #mother {
     width: 1440px;
@@ -71,8 +82,29 @@ background-color: hsl(210, 46%, 95%)    ;
 
 .symbol { 
     float: right;
+    padding-right: 100px;
 }
 
 .profile {
-    margin: auto;
+    float: left;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+#jonanthan {
+    background-color: white;
+    padding: 2px;
+}
+
+#daniel {
+    background-color: #A775F1;
+    padding: 2px;
+}
+
+#patrick {
+    background-color: hsl(263, 55%, 52%);
+    padding: 2px;
 }

@@ -1,18 +1,51 @@
 body {
 background-color: hsl(210, 46%, 95%)    ;
 }
-p, h1, h2 {
+p, h1{
     font-family: "Barlow Semi Condensed", sans-serif;
 }
 
-h1, h2 {
+h1 {
     color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.name {
+    font-size: 15px;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 25px;
+    margin-left: 85px;
+}
+.name1 {
+    font-size: 15px;
+    color: black;
+    margin-bottom: 0;
+    margin-top: 25px;
+    margin-left: 85px;
+}
+
+.white {
+    color: black;
 }
 
 p {
     color: rgb(205, 205, 205);
+    font-size: 13px;
+    margin-left: 20px;
+    margin-right: 20px;
+
 }
 
+.verified {
+    margin-left: 85px;
+    margin-top: 0;
+}
 #mother {
     width: 1440px;
     height: auto;
